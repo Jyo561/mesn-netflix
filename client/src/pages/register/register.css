@@ -1,0 +1,83 @@
+.register{
+	width: 100vw;
+	height: 100vh;
+	margin-left: -7.6px;
+	margin-top: -7.6px;
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%),url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+	background-size: cover;
+	position: relative;
+
+}
+.register .top .wrapper{
+	padding: 20px 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.register .top .wrapper .logo {
+	height: 40px;
+}
+.register .top .wrapper .loginButton{
+	background-color: red;
+	border:  none;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+}
+.register .container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.register .container h1{
+	font-size: 80px;
+}
+.register .container h2{
+	margin: 0px;
+	font-size: 35px;
+}
+.register .container p{
+	font-size: 24px;
+}
+.register .container .input{
+	width: 50%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-self: space-between;
+	margin-top: 20px;
+	height: 50px;
+	border-radius: 5px;
+	margin-left: 375px;
+
+}
+.register .container .input input{
+	flex: 9;
+	height: 107%;
+	width: 1000px;
+	border: none;
+	padding: 0 10px;
+	margin-top: 4px;
+
+}
+.register .container .input .registerButton{
+	flex: 5;
+	height: 107%;
+	background-color: red;
+	border: none;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+	padding: 0 5px;
+	margin-top: 5px;
+}

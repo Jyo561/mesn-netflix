@@ -1,0 +1,9 @@
+.home{
+	background-color: var(--main-color);
+	color:  white;
+
+	left: -23.55px;
+	width: 102.56%;
+	top: -23.55px;
+	position: relative;
+}
